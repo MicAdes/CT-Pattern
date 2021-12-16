@@ -9,7 +9,7 @@ import os
 from custom_dataset import MultiViewDataSetCrossFoldValidation
 from architectures import Classifier
 import write_functions as writer
-from DataSetup import get_MN10_classes, get_MN40_classes
+from dataSetup import get_MN10_classes, get_MN40_classes
 
 
 parser = argparse.ArgumentParser()

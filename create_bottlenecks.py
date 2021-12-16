@@ -6,7 +6,7 @@ from torchvision import transforms
 from torch.utils.data import DataLoader
 from architectures import FrontModel
 from custom_dataset import MultiViewDataSet2
-from DataSetup import get_MN10_classes
+from dataSetup import get_MN10_classes
 from read_functions import ensure_dir
 
 parser = argparse.ArgumentParser(description='')

@@ -12,7 +12,7 @@ from custom_dataset import build_class_group, MultiViewDataSetALL
 from test_model import calculate_performance
 import write_functions as writer
 import read_functions as reader
-from DataSetup import get_bottleneck_dir, get_MN10_classes, get_MN40_classes
+from dataSetup import get_bottleneck_dir, get_MN10_classes, get_MN40_classes
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu', help='which gpu', default=0)
