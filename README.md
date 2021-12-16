@@ -5,9 +5,9 @@ This is PyTorch implementation for the paper "ConfusionTree-Pattern: A Hierarchi
 
 
 
-# Quickstart for experiments on ModelNet
+## Quickstart for experiments on ModelNet
 
-## 1. Download multi-view images
+### 1. Download multi-view images
 
     We used the multi-view image dataset generated in [Kanezaki et al. 2018]
 
@@ -20,20 +20,20 @@ This is PyTorch implementation for the paper "ConfusionTree-Pattern: A Hierarchi
 
 
 
-## 2. bold Create feature vectors (bottleneck tensors) for Transfer Learning
+### 2. bold Create feature vectors (bottleneck tensors) for Transfer Learning
 
    ```
     $ python create_bottlenecks.py --gpu 0 
    ```
 
 
-## 3. bold Build ConfusionTree
+### 3. bold Build ConfusionTree
 
    ```
     $ python buildConfusionTree.py  
    ```
 
-## 4. bold Train ConfusionTree-Pattern**
+### 4. bold Train ConfusionTree-Pattern**
 
    ```
     $ python trainConfusionTreePattern.py --gpu 0 --ct "./MN40_ConfusionTree/" 
