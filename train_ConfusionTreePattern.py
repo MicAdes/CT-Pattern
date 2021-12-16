@@ -20,7 +20,7 @@ parser.add_argument('--gpu', help='which gpu', default=0)
 parser.add_argument('-epochs', '--epochs', default=30,type=int)
 parser.add_argument('--lr', '--learning-rate', default=0.01, type=float,help='starting learning rate')
 parser.add_argument('-b', '--batch-size',default=20,type=int, help='number of 3D objects per batch')
-parser.add_argument('-ct', '--confusionTree',help='path to pre-defined ConfusionTree', default= './MN40_ConfusionTree_Sep_30_2021_11-55/')
+parser.add_argument('-ct', '--confusionTree',help='path to pre-defined ConfusionTree', default= './MN40_ConfusionTree/')
 
 
 def adjust_learning_rate(optimizer, epoch, initial_lr):
