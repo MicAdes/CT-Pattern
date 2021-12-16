@@ -19,7 +19,7 @@ $ wget https://data.airc.aist.go.jp/kanezaki.asako/data/modelnet40v2png_ori4.tar
 See (https://github.com/kanezaki/pytorch-rotationnet)
 
 
-
+<br/><br/>
 
 
 ### 2. bold Create feature vectors (bottleneck tensors) for Transfer Learning
@@ -28,7 +28,7 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
     $ python create_bottlenecks.py --gpu 0 
    ```
 
-
+<br/><br/>
 
 
 ### 3. bold Build ConfusionTree
@@ -37,7 +37,7 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
     $ python buildConfusionTree.py  
    ```
 
-
+<br/><br/>
 
 ### 4. bold Train ConfusionTree-Pattern**
 
