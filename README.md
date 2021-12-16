@@ -22,7 +22,7 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
 <br/><br/>
 
 
-### 2. bold Create feature vectors (bottleneck tensors) for Transfer Learning
+### 2. Create feature vectors (bottleneck tensors) for Transfer Learning
 
    ```
     $ python create_bottlenecks.py --gpu 0 
@@ -31,7 +31,7 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
 <br/><br/>
 
 
-### 3. bold Build ConfusionTree
+### 3. Build ConfusionTree
 
    ```
     $ python buildConfusionTree.py  
@@ -39,7 +39,7 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
 
 <br/><br/>
 
-### 4. bold Train ConfusionTree-Pattern**
+### 4. Train ConfusionTree-Pattern**
 
    ```
     $ python trainConfusionTreePattern.py --gpu 0 --ct "./MN40_ConfusionTree/" 
