@@ -20,6 +20,8 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
 
 
 
+
+
 ### 2. bold Create feature vectors (bottleneck tensors) for Transfer Learning
 
    ```
@@ -27,11 +29,15 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
    ```
 
 
+
+
 ### 3. bold Build ConfusionTree
 
    ```
     $ python buildConfusionTree.py  
    ```
+
+
 
 ### 4. bold Train ConfusionTree-Pattern**
 
