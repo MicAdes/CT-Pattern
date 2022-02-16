@@ -36,7 +36,7 @@ See (https://github.com/kanezaki/pytorch-rotationnet)
 
 <br/>
 
-### 4. Train ConfusionTree-Pattern**
+### 4. Train ConfusionTree-Pattern
 
    ```
     $ python trainConfusionTreePattern.py --gpu 0 --ct "./MN40_ConfusionTree/" 
